@@ -1,0 +1,71 @@
+{"news": {
+    "aliases": {},
+    "mappings": {
+      "properties": {
+        "country": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "date": {
+          "type": "date"
+        },
+        "day": {
+          "type": "long"
+        },
+        "id_news": {
+          "type": "long"
+        },
+        "media_outlet": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "month": {
+          "type": "long"
+        },
+        "text": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "text_length": {
+          "type": "long"
+        },
+        "title": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "url": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "year": {
+          "type": "long"
+        }
+      }
+    }
+}
+}
